@@ -14,6 +14,7 @@ int main()
 {
     // int *p = NULL; // inicializar o ponteiro.
     // int *p; Não inicializar ponteiro assim!
+    /*
     int *p = NULL; // maneira correta de inicializar um ponteiro.
     int x = 10;
     p = &x;
@@ -22,4 +23,14 @@ int main()
     printf("*p = %d\n", *p);
     printf("p =%d\n", p);
     printf("&x = %d\n", &x);
+    */
+
+    //  operacoes com ponteiros
+    int *p = 0x5DC;
+    printf("p = %d\n",p);
+    p++;
+    printf("p = %d\n",p);
+
+
+
 }
