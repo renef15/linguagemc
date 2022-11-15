@@ -45,4 +45,5 @@ int main()
         printf("\nStrings diferentes");
     return 0;
     printf("oi");
+    printf("Aula em sala");
 }
