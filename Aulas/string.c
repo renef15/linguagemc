@@ -44,4 +44,5 @@ int main()
     else
         printf("\nStrings diferentes");
     return 0;
+    printf("oi");
 }
