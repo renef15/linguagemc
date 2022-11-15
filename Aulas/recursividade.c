@@ -63,7 +63,7 @@ int main(void)
 
     // printf("\nA soma dos %d primeiros cubos eh %d.\n", num, soma_de_cubos(num));
 
-    //printf("\n%d eh o %d termo da sequencia de fibonacci.\t", fibonacci(num), num);
+    printf("\n%d eh o %d termo da sequencia de fibonacci.\t", fibonacci(num), num);
 
     return 0;
 }
