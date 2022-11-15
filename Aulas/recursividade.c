@@ -46,8 +46,8 @@ int fibonacci(int n)
     }
 }
 
-int potencia(int k , int n){
-
+int potencia(int k, int n)
+{
 }
 
 int main(void)
@@ -61,7 +61,7 @@ int main(void)
 
     // printf("\nO somatorio dos naturais ate o numero %d eh %d.\n", num, somatorio(num));
 
-     printf("\nA soma dos %d primeiros cubos eh %d.\n", num, soma_de_cubos(num));
+    printf("\nA soma dos %d primeiros cubos eh %d.\n", num, soma_de_cubos(num));
 
     printf("\n%d eh o %d termo da sequencia de fibonacci.\t", fibonacci(num), num);
 
