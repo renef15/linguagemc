@@ -7,7 +7,7 @@ int main()
     scanf("%d", &tamanho_vetor);
     char palavra[tamanho_vetor];
 
-    printf("Digite uma palavra: ");
+    printf("Digite a palavra: ");
     scanf("%s", &palavra);
 
     for (int i = 0, j = tamanho_vetor - 1; i < tamanho_vetor - 1, j >= 0; i++, j--)
