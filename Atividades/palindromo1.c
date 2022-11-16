@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// creditos : Grace.
 int main(void)
 {
 
@@ -21,18 +21,16 @@ int main(void)
         for (j = 0; j < tam; j++)
         {
             if (nome[i] == aux[j])
-                cont++;
+                cont += 1;
         }
-        printf("%d\n", cont);
     }
-
-    if (cont == tam+1)
+    if (cont == tam + 1)
     {
-        printf("true\n");
+        printf("eh palindromo");
     }
     else
     {
-        printf("false\n");
+        printf("n eh palindromo");
     }
 
     return 0;
