@@ -31,7 +31,7 @@ int main()
 
     // Exibindo os valores já trocados após a chamada da função
     printf("Os valores trocados sao: %d e %d\n", a, b);
-    
+
     char alfabeto[] = "abcdefghijklmnopqrstuvwxyz";
     char *elemento;
     elemento = &alfabeto[0];
