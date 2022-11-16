@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// retirar esse comentario na sala
 int main()
 {
     int tamanho_vetor;
