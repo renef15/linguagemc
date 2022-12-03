@@ -4,7 +4,7 @@ int main(void)
 {
 
     int j = 0, tam = 4, i;
-    char nome[5] = "radar";
+    char nome[5] = "roder";
     char aux[5];
     int cont = 0;
 
