@@ -52,7 +52,7 @@ int main()
 {
     int numero, i, j, retorno;
 
-    // abrindo o arquivo.
+    // abrindo o arquivo.z
     FILE *arq = fopen("input.txt", "r");
 
     // pegando o quantidade de retangulos e pontos do arquivo.

@@ -1,2 +1,2 @@
 # linguagemc
-codigos de aulas em na linguagem c
+codigos de aulas em linguagem c
