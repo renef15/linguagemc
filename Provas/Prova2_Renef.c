@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-// Apagar isso no vs code 
+
 // estruturas para guardar as coordenadas dos pontos.
 typedef struct
 {
