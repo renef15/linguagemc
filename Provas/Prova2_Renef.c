@@ -78,7 +78,7 @@ int main()
     // usando a função para padronizar os pontos.
     padroniza_ponto(retangulo);
 
-    // verificando se determinado ponto esta em determinado retangulo e mostrando isso.
+    // verificando se determinado ponto está em determinado retângulo e mostrando isso.
     for (i = 0; i < numero; i++)
     {
         for (j = 0; j < numero; j++)
