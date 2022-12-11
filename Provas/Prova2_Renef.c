@@ -59,8 +59,8 @@ int main()
     fscanf(arq, "%d", &numero);
 
     // alocação dinâmica para os vetores de point e rect
-    point *ponto = malloc(numero * sizeof(point));
-    rect *retangulo = malloc(numero * sizeof(rect));
+    point *ponto = (point *)malloc(numero * sizeof(point));
+    rect *retangulo = (rect *)malloc(numero * sizeof(rect));
 
     // lendo os pontos do arquivo e salvando no vetor de pontos.
     for (i = 0; i < numero; i++)
