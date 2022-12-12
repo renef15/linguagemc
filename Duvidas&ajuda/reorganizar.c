@@ -11,7 +11,7 @@ int vetmenor(int *array, int tamanho)
     {
         for (j = 0; j < tamanho; j++)
         {
-            if (!(array[i] > array[j]))
+            if (array[i] < array[j])
             {
                 aux = array[i];
                 array[i] = array[j];
