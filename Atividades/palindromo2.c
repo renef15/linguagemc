@@ -1,31 +1,50 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main()
+int compare(char *str1, char *str2, int tamanho)
 {
-    int tamanho_vetor;
-
-    printf("Digite o quantas letras a palavra tem: ");
-    scanf("%d", &tamanho_vetor);
-
-    char palavra[tamanho_vetor];
-    int cont = tamanho_vetor;
-
-    printf("Digite a palavra: ");
-    scanf("%s", &palavra);
-
-    for (int i = 0, j = tamanho_vetor - 1; i<tamanho_vetor, j> 0; i++, j--)
+    int i, cont;
+    cont = 0;
+    for (i = 0; i < tamanho; i++)
     {
-        if (palavra[i] != palavra[j])
+        if (str1[i] == str2[i])
         {
-            cont--;
+            cont++;
         }
     }
-    if (cont == tamanho_vetor)
+    if (cont == tamanho)
     {
-        printf("Eh palindromo\n");
+
+        return 0;
     }
     else
     {
-        printf("Nao eh palindromo");
+        return 1;
+    }
+}
+int main()
+{
+    int tamanho_vetor, retorno;
+
+    printf("Digite o quantas letras as palavras tem: ");
+    scanf("%d", &tamanho_vetor);
+
+    char *palavra1 = (char *)malloc(tamanho_vetor * sizeof(char));
+    char *palavra2 = (char *)malloc(tamanho_vetor * sizeof(char));
+
+    printf("Digite a palavra1: ");
+    scanf("%s", palavra1);
+
+    printf("Digite a palavra2: ");
+    scanf("%s", palavra2);
+
+    retorno = compare(palavra1, palavra2, tamanho_vetor);
+    if (retorno == 0)
+    {
+        printf("As strings sao iguais.");
+    }
+    else
+    {
+        printf("As nao strings sao iguais");
     }
 }

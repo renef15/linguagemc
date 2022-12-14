@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Organizando o vetor do menor para o maior
-int vetmenor(int *array, int tamanho)
+int crescente(int *array, int tamanho)
 {
     int i, j, aux;
 
@@ -22,7 +22,7 @@ int vetmenor(int *array, int tamanho)
 }
 
 // Organizando o vetor do maior para o menor
-int vetmaior(int *array, int tamanho)
+int decrescente(int *array, int tamanho)
 {
     int i, j, aux;
 
@@ -82,9 +82,9 @@ int main()
         scanf("%d", &vetor1[i]);
     }
 
-    vetmenor(vetor1, tamanho_vetor);
+    crescente(vetor1, tamanho_vetor);
     vetcopy(vetor1, vetor2, tamanho_vetor);
-    vetmaior(vetor2, tamanho_vetor);
+    decrescente(vetor2, tamanho_vetor);
 
     // Organizando o vetor como a questão pediu
     for (i = 0, j = 0; j < tamanho_vetor; i++, j += 2)

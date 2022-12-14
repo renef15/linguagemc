@@ -11,7 +11,6 @@ int fatorial(int x)
 
 int somatorio(int x)
 {
-    printf("%d\t", x);
     if (x == 0)
         return 0;
     else
@@ -59,11 +58,11 @@ int main(void)
 
     // printf("\nSeu fatorial eh igual a %d.\n", fatorial(num));
 
-    // printf("\nO somatorio dos naturais ate o numero %d eh %d.\n", num, somatorio(num));
+    printf("\nO somatorio dos naturais ate o numero %d eh %d.\n", num, somatorio(num));
 
-    printf("\nA soma dos %d primeiros cubos eh %d.\n", num, soma_de_cubos(num));
+    // printf("\nA soma dos %d primeiros cubos eh %d.\n", num, soma_de_cubos(num));
 
-    printf("\n%d eh o %d termo da sequencia de fibonacci.\t", fibonacci(num), num);
+    // printf("\n%d eh o %d termo da sequencia de fibonacci.\t", fibonacci(num), num);
 
     return 0;
 }
